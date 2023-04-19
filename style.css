@@ -4,7 +4,7 @@
 
 .logo-img{
     margin-top: 10px;
-    width:300px;
+    width:350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,15 +38,6 @@
 .temp{
     font-weight: 700;
 }
-/*.lef-top > a{
-    text-decoration: none;
-    margin-left: 10px;
-    font-family: proxima-nova,Roboto,Arial,san-serif;
-    font-size: 13px;
-    color: #717171;
-    color: #222;
-    float:left;
-}*/
 
 .right-top{
     float: right;
@@ -101,13 +92,13 @@
 }
 
 .right-top > ul > li > ul > li > a {
-   font-weight: 500;
-    font-size: 11px;
-    padding: 0 9px;
-    color: #222;
-    text-decoration: none;
-    text-align: right;
-}
+    font-weight: 500;
+     font-size: 11px;
+     padding: 0 9px;
+     color: #222;
+     text-decoration: none;
+     text-align: right;
+ }
 
 .right-options{
     display: inline-block;
@@ -116,12 +107,9 @@
     padding: 0;
 }
 
-
-
 .navbar-container{
-    /*position: relative;*/
     position: sticky;
-    top: 0;
+    top:0;
     border-top: 4px solid #1fb25a;
     background-color: #222;
     color: white;
@@ -129,14 +117,7 @@
     z-index: 1;
 }
 
-/*.navbar{
-    position: relative;
-    display:flex;
-    height: 100%;
-    max-width: 1500px;
-    min-width: 100%;
-    margin: 0 auto;
-}*/
+
 .navbar {
     position: relative;
     height: 100%;
@@ -144,17 +125,6 @@
     min-width: 100%;
     margin: 0 auto;
 }
-
-/*.navbar-left-side{
-    display:flex;
-    position: absolute;
-    justify-content: space-between;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    background-color: #222 ;
-}*/
 
 .navbar-left-side{
     position: absolute;
@@ -174,17 +144,11 @@
     right: 0;
     height: 2.5rem;
     z-index: 5;
-    /*font-family: proxima-nova,Roboto,Arial,san-serif;
-    font-size: 1.3em;
-    color: #fff;
-    padding: 0 1rem;
-    transition: color 0.2s;*/
 }
 
 .navbar-right-side{
     position: absolute;
     height: 100%;
-    /*width: 22rem;*/
     top: 0;
     bottom: 0;
     right: 20px;
@@ -199,7 +163,6 @@
     height: 100%;
     width: 55px;
     text-align: center;
-   /* margin-right: 0.5rem;*/
     cursor: pointer;
 }
 
@@ -212,6 +175,7 @@
     bottom: 0.4rem;
 }
 
+.
 .open-side-bar{
     display: inline-block;
     vertical-align: middle;
@@ -251,8 +215,6 @@
     padding: 0;
 }
 
-
-
 .navbar-middle-side > ul > li {
     display: inline-block;
     float: left;
@@ -277,6 +239,12 @@
     cursor: pointer;
 }
 
+.menu-button-container{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
 .menu-button-container > ul {
     list-style-type: none;
     margin: 0;
@@ -291,6 +259,7 @@
     display: inline-block;
     float: left;
 }
+
 .options-buttons-container{
     display: inline-block;
     vertical-align: middle;
@@ -370,18 +339,6 @@
     bottom: -1px;
 }
 
-/*.twitter{
-    display: inline-block;
-    float: left;
-    position: relative;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    color: white;
-    transition: none;
-}*/
-
 .navbar-right-3-icons a.twitter > span{
     display: block;
 }
@@ -409,23 +366,6 @@
     cursor: pointer;
     position: relative;
 }
-/*.newletters{
-    display:inline-block;
-    vertical-align: middle;
-}
-
-.newletters a{
-    display: inline-block;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0rem;
-    font-family: proxima-nova,Roboto,Arial,san-serif;
-    font-weight: normal;
-    color: white;
-    transition: color 0s;
-    border: 1px solid #777;
-    border-radius: 5px;
-    text-decoration: none;
-}*/
 .newletters{
     top:5px;
     display: inline-block;
@@ -473,14 +413,11 @@
 
 /* The sidebar menu */
 .sidebar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 115.72px;
+    top: 128px;
     left: 0;
     background-color: #222; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -533,7 +470,6 @@
     font-size: 11px;
     padding: 3px 10px;
 }
-
 .side-menu-account-buttons{
     display: block;
     margin: 0;
@@ -896,7 +832,7 @@
 .content{
     display: flex;
     margin-right: 7rem;
-    /*margin-left: 7rem;*/
+    margin-left: 7rem;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -940,12 +876,6 @@
     cursor: pointer;
 }
 
-.story > span{
-    display: block;
-    color: #222;
-    font-weight: normal;
-}
-
 .story:hover{
     color: dodgerblue;
 }
@@ -976,13 +906,6 @@
     background-color: dodgerblue;
 }
 
-/*.latest-news-container{
-    margin-bottom: 0;
-    /*background-color: #eee;
-    height: auto;
-    padding-bottom: 0;
-}
-*/
 .right-column{
     width: 70%;
 }
@@ -990,8 +913,6 @@
 .latest-news-item-big{
     position: relative;
     cursor: pointer;
-    display: block;
-    width:100%;
 }
 
 .latest-news-item-big img{
@@ -1116,4 +1037,3 @@
     height:100%;
     cursor: pointer;
 }
-
